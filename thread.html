@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <link href="threadStyle.css" rel="stylesheet" type="text/css" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cardo&family=Dosis:wght@600&display=swap" rel="stylesheet">
+    
+
+  </head>
+<body>
+    <header>
+    <nav id = "navbar" >
+      <div class = "navlinks">
+        <a class = "navLink" href = "#banner" input type="button" onclick = "history.back()">Home</a>
+        <a class = "navLink" href = "/saved.html">Saved</a>
+        <a class = "navLink" href = "/index.html#forumBlock" >Forums</a>
+      </div>
+    </nav>
+    </header>
+
+    <!--<div class="top-bar">
+        <h1>
+            Fe.m
+        </h1>
+    </div>-->
+    <img src = "images/ThreadBanner.png" id = "forumBanner" alt = "Fe.m forum">
+
+    <!--<button onclick="goBack()">Go Back</button>-->
+    <div class="main">
+        <div class="header">
+        </div>
+        <textarea placeholder = "Reply..."></textarea>
+        <button id = "submit">Add Comment</button>
+        <div class = "decorLine"></div>
+        
+        <div class="comments">
+        </div>
+    </div>
+    <script src="data.js"></script>
+    <script src="threadScript.js"></script>
+      
+<footer>
+  <h1 id  = "footerTitle">Fe.m</h1>
+  <p id = "footerText">Created by Laurel Ferguson and Sarah Bargfrede</p>
+  <a class = "footerLink" href = "#forumBlock">Forums</a>
+  <a class = "footerLink" href = "/saved.html">Saved</a>
+  <a class = "footerLink" href = "/index.html">Home</a>
+</footer>    
+</body>
+</html>
